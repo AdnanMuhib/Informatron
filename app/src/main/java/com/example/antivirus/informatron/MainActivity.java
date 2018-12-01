@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void GetContacts_clicked(View view){
         try
         {
-            Intent intent = new Intent(this, DeviceInfoActivity.class);
+            Intent intent = new Intent(this, ContactListActivity.class);
             startActivity(intent);
         }
         catch (Exception e){
