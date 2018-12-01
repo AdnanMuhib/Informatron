@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     public  void GetMessages_clicked(View view){
         try
         {
-            Intent intent = new Intent(this, DeviceInfoActivity.class);
+            Intent intent = new Intent(this, readSMSActivity.class);
             startActivity(intent);
         }
         catch (Exception e){
