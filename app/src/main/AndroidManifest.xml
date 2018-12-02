@@ -35,7 +35,8 @@
         <activity android:name=".readSMSActivity" />
         <activity android:name=".CallHistoryActivity" />
         <activity android:name=".InstalledAppsActivity" />
-        <activity android:name=".ProximitySensorActivity"></activity>
+        <activity android:name=".ProximitySensorActivity" />
+        <activity android:name=".GyroscopeActivity"></activity>
     </application>
 
 </manifest>
