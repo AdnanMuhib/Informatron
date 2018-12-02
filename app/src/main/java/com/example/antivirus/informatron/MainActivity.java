@@ -67,5 +67,15 @@ public class MainActivity extends AppCompatActivity {
             Log.e("Error",e.getMessage().toString());
         }
     }
+    public  void ProximitySensor_clicked(View view){
+        try
+        {
+            Intent intent = new Intent(this, ProximitySensorActivity.class);
+            startActivity(intent);
+        }
+        catch (Exception e){
+            Log.e("Error",e.getMessage().toString());
+        }
+    }
 
 }
